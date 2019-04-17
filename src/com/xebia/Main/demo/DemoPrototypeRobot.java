@@ -11,12 +11,12 @@ import com.xebia.Main.prototype.RobotPrototype;
 
 public class DemoPrototypeRobot {
     public static void main(String[] args) {
-        RobotPrototype robotService = new RobotPrototype();
-        robotService.walk(4);
-        robotService.walkAndCarry(1,3);
-        robotService.putCharging(70);
-        robotService.carry(5);
-        robotService.displayPrice(11);
+        RobotPrototype robotPrototype = new RobotPrototype();
+        robotPrototype.walk(4);
+        robotPrototype.walkAndCarry(1,3);
+        robotPrototype.putCharging(70);
+        robotPrototype.carry(5);
+        robotPrototype.displayPrice(11);
 
     }
 }
